@@ -1,0 +1,6 @@
+endpoint: http://139.59.58.153:4466
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
